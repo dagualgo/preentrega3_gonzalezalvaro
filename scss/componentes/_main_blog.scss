@@ -1,0 +1,94 @@
+.main_blog{
+    height: 84vh;
+    background-color: $bright-waves-1-hex; 
+    color: $bright-waves-3-hex;
+    font-family: "Akatab";
+    font-size: 1rem;
+
+    .titulo_card{
+        font-family: "Akatab";
+        //font-size: 2rem;
+        color: $bright-waves-3-hex;
+        font-weight: bold;
+    }
+
+    .ancho_card{
+        width: 95%;
+        height: 95%;
+        margin: 2px 2px 2px 2px;
+        background-color: $bright-waves-5-hex;
+        color: $bright-waves-1-hex;
+        border: 1px solid $bright-waves-3-hex;
+        display: flex;
+        flex-direction: column;     
+        
+    }
+
+     .img_dim{
+        margin: 5px 5px 5px 5px;
+        border-radius: 8px;
+        height: 40%;
+        width: 96%; 
+     }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .main_blog{
+        height: auto;
+        width: auto; 
+        
+        .ancho_card{
+            display: flex;
+            flex-direction: row;            
+        }
+        .img_dim{
+            height: 96%;
+            width: 25%;
+         }
+    } 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main_blog{
+        .ancho_card{
+            display: flex;
+            align-items: center;            
+        }
+    
+        .img_dim{
+            height: 96%;
+            width: 35%;  
+         }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main_blog{
+
+        .ancho_card{
+            display: flex;
+            flex-direction: column;            
+        }
+
+
+        .img_dim{
+            height: 96%;
+            width: 45%;            
+         }
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .main_blog{
+        .img_dim{
+            height: 96%;
+            width: 56%;
+         }
+    }
+}

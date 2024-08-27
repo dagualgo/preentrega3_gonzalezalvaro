@@ -1,0 +1,67 @@
+footer{
+    height: 6vh;
+    background-color: $bright-waves-5-hex;
+    color: $bright-waves-3-hex;
+    font-family: "Akatab";
+    font-size: 1rem;
+
+    .block_iconos {
+        width: 25px;
+        height: 25px;
+      }
+    
+
+      .blk_img_logo_F {
+        width: 150px;
+        height: 40px;
+      }
+
+        
+}
+
+
+
+
+            /* DESKTOP FIRST*/
+        
+            
+
+            
+            @media screen and (max-width: 1200px) {
+              footer{
+                height: 6vh;
+                font-size: 0.7rem;
+            }
+              
+            }
+
+
+            @media screen and (max-width: 768px){
+
+              footer{
+                height: auto;
+                font-size: 0.7rem;
+            }
+              
+
+            }
+              
+            
+
+
+          
+    @media screen and (max-width: 480px) {
+
+     
+
+
+      .blk_img_logo_F {
+        width: 75px;
+        height: 40px;
+      }
+
+          
+        
+  }
+
+          

@@ -1,0 +1,27 @@
+/* Animación */
+
+@keyframes frecue {
+    0%, 50%, 100% { transform: scale(1, 1); }
+    30%, 80% { transform: scale(0.7, 0.7); }
+  }
+  
+  /* Curvas de tiempo*/
+  
+  .easeIn {
+    animation: 6s ease-in 0s infinite frecue;
+  }
+  
+  .easeOut {
+    animation: 6s ease-out 0s infinite frecue;
+  }
+  
+  .easeInOut {
+    animation: 6s ease-in-out 0s infinite frecue;
+  }
+  
+  
+  .linear {
+    animation: 6s ease-in-out 0s infinite frecue;
+  }
+  
+  

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    height: 100vh;
+    font-size: 1rem;
+
+  }
+
+@import "./Paletadecolores/paleta";
+@import "./otros/btn_lbs.scss";
+
+@import "./componentes/header";
+
+
+@import "./componentes/main_index";
+@import "./componentes/main_paquetes";
+@import "./componentes/main_vuelos";
+@import "./componentes/main_blog";
+@import "./componentes/main_contacto";
+
+
+
+@import "./otros/animacion";
+
+
+@import "./componentes/footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

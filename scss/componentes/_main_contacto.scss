@@ -1,0 +1,46 @@
+.main_contacto{
+    height: 84vh;
+    background-color: $bright-waves-1-hex; 
+    color: $bright-waves-3-hex;
+    font-family: "Akatab";
+    font-size: 1rem;
+
+
+ 
+    textarea {
+        height: 15em;
+        width: 100%;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .tam_carusel{
+               width: 40%;
+        }
+        textarea {
+            height: 4em;
+            width: 100%;
+        } 
+    }
+
+    @media screen and (max-width: 576px) {
+          .tam_carusel{
+            width: 55%;
+            align-items: center;
+        }     
+    }
+    
+    @media screen and (max-width: 480px) {          
+        .main_contacto{
+            height: auto;        
+        }
+        .tam_carusel{
+            width: 60%;        
+        }           
+    }
+}
+
+
+
+
+

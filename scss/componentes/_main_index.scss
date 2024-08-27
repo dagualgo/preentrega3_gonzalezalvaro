@@ -1,0 +1,54 @@
+.main_index{
+    height: 84vh;
+    background-color: $bright-waves-1-hex; 
+    color: $bright-waves-3-hex;
+    font-family: "Akatab";
+    font-size: 1rem;
+
+
+    .titulo_card{
+        font-family: "Akatab";
+        //font-size: 2rem;
+        color: $bright-waves-3-hex;
+        font-weight: bold;
+
+    }
+
+    .ancho_card{
+
+        width: 98%;
+        height: 95%;
+        margin: 2px 2px 2px 2px;
+        background-color: $bright-waves-5-hex;
+        color: #ffffff;
+        border: 1px solid $bright-waves-3-hex
+        
+    }
+
+     .img_dim{
+        border-radius: 8px;
+        height: 50%;
+        width: 100%;
+     }
+
+
+
+
+    @media screen and (max-width: 992px) {
+            height: auto;
+            width: auto;
+       
+      }
+      
+
+   
+
+
+
+
+}
+
+
+
+
+

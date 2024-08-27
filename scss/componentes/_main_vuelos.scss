@@ -1,0 +1,24 @@
+.main_vuelos{
+    height: 84vh;
+    background-color: $bright-waves-1-hex; 
+    color: $bright-waves-3-hex;
+    font-family: "Akatab";
+    font-size: 1rem;
+
+
+ 
+
+
+
+
+
+
+    
+}
+
+@media screen and (max-width: 992px) {
+    .main_vuelos{
+        height: auto;
+    }
+    
+}
